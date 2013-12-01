@@ -1,4 +1,4 @@
-pyCaBi
+pycabi
 ======
 
 Python tools for working with [Capital Bikeshare](http://www.capitalbikeshare.com/) (CaBi) data.
@@ -11,7 +11,7 @@ cd pycabi
 virtualenv .
 source bin/activate
 pip install -r requirements.txt
-python -m tests/test_utils
+python -m unittest discover
 ````
 
 ####Usage
